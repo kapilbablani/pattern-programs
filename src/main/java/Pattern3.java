@@ -6,7 +6,7 @@ public class Pattern3 {
         for(int i=1;i<=input;i++) {
             for(int j=1;j<=input;j++) {
                 if(i+j > input)
-                    System.out.print("#");
+                    System.out.print("* ");
                 else
                     System.out.print(" ");
             }
@@ -15,7 +15,7 @@ public class Pattern3 {
     }
 }
 //             *
-//            **
-//           ***
-//          ****
-//         *****
+//            * *
+//           * * *
+//          * * * *
+//         * * * * *
